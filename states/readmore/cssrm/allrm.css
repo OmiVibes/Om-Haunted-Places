@@ -1,0 +1,145 @@
+/* body {
+	background-color: #f8fafc;
+} */
+
+.container {
+	padding: 2rem;
+}
+
+.slider-wrapper {
+	position: relative;
+	max-width: 50rem;
+	margin: 0 auto;
+}
+
+.slider {
+	display: flex;
+	aspect-ratio: 16 / 9;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+	border-radius: 0.5rem;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.slider::-webkit-scrollbar {
+	display: none;
+}
+
+.slider img {
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
+}
+
+.slider-nav {
+	display: flex;
+	column-gap: 1rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.slider-nav a {
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: #fff;
+	opacity: 0.75;
+	transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+	opacity: 1;
+}
+div p{
+	padding: 3rem;
+	color: red;
+	text-align: center;
+}
+.mainrm{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.allmp{
+	display: flex ;
+	align-items: center;
+	justify-content: center;
+	margin-top: 4em;
+	margin-bottom: 6rem;
+}
+
+.mainm{
+    display: flex;
+    justify-content: space-between;
+    height: 15rem;
+    padding: 3rem 3rem 3rem 3rem;
+}
+.mainm h2{
+    color: red;
+}
+.main1{
+    width: 50%;
+}
+.main1 h2{
+    color: red;
+    font-family: 'YouMurderer BB Regular';
+    font-size: 4rem;
+    font-weight: lighter;
+    text-align: center;
+}
+.main1 p{
+    /* margin-top: 1rem; */
+    /* margin-bottom: 2.3rem; */
+    /* text-align: center; */
+    color: white;
+}
+i{
+    /* padding: 2rem 2.5rem 2rem 2.5rem; */
+    font-size: 2rem;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+}
+.socials li{
+    list-style: none;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem 2rem 5rem;
+}
+.rrr{
+    text-align: center;
+}
+.rrr a{
+    color: white;
+}
+.rrt a{
+    color: white;
+}
+.fclass li{
+    list-style: none;
+    padding: 8px;
+    color: white;
+}
+.fclass li a{
+    text-decoration: none;
+}
+#google_element{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+}
+.fclass li i{
+    font-size: medium;
+    padding: 0;
+}

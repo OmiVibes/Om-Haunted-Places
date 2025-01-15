@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Noto Sans;
+
+}
+body{
+    background-size: cover;
+
+    /* background: black; */
+}
+/* the header of your website */
+#navbar{
+    display: flex;
+    align-items: center;
+    margin: 0px 25px;
+    justify-content: space-between;
+    position: relative;
+}
+/* logo styling in navbar */
+.logo{
+    font-family: 'YouMurderer BB Regular';
+    font-size: 55px;
+    color: rgb(255, 3, 3);
+    padding: 20px 15px;
+}
+
+/* menubar styling in navbar */
+
+.item{
+    font-weight: bold;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    padding: 3px 22px;
+    list-style: none;
+    font-size: 1.2rem;
+}
+#navbar ul li a{
+    display: block;
+    border-radius: 20px;
+    color: red;
+    text-decoration: none;
+}
+.mainser{
+    /* background-color: white; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #fff; */
+}
+.content1{
+    margin: 1.2rem;
+    border-radius: 1rem;
+    background-color: white;
+    /* border: 1px solid whitesmoke; */
+}
+.subcontent{
+    /* border: 2px solid red; */
+    border-radius: 1rem;
+    padding: 0.4rem 0rem 0.4rem 2rem;
+}
+.subcontent h3{
+    font-size: 22px;
+}
+.price{
+    padding-top: 0.3rem;
+    padding-left: 1rem;
+    margin-bottom: 0.7rem;
+}
+.content1 img{
+    width: 25rem;
+    height: 17rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.ulclass li{
+    list-style: none;
+    padding: 0.2rem 0rem 0.1rem 1.7rem;
+}
+.booknow {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    /* border: 2px solid red; */
+}
+.booknow a button{
+    width: 10rem;
+    border-radius: 1rem;
+    height: 2rem;
+    cursor: pointer;
+}
+.booknow a{
+    border-radius: 1rem;
+
+}
+
+
+#blur.active{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+
+
+
+#popup{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#popup.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transform: 0.5s;
+}
+.bbooking{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35rem;
+    height: 15rem;
+    border: 2px solid red;
+}
+.bbooking div , .bbooking div form{
+    /* padding-left: 4rem; */
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+div h4{
+    margin: 4px;
+}
+div input{
+    width: 14rem;
+    margin: 4px;
+}
+#submittt{
+    width: 7rem;
+    /* margin: auto; */
+}

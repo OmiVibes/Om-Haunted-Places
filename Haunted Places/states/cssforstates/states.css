@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Noto Sans;
+
+}
+body{
+    background-size: cover;
+    /* background: black; */
+}
+/* the header of your website */
+#navbar{
+    display: flex;
+    align-items: center;
+    margin: 0px 25px;
+    justify-content: space-between;
+    position: relative;
+}
+
+header::before{
+    /* background: url('img/bg.jpg')center/cover; */
+    /* background: grey; */
+    filter: brightness(25%);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+/* logo styling in navbar */
+.logo{
+    font-family: 'YouMurderer BB Regular';
+    font-size: 55px;
+    color: rgb(255, 3, 3);
+    padding: 20px 15px;
+}
+
+/* menubar styling in navbar */
+
+.item{
+    font-weight: bold;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    padding: 3px 22px;
+    list-style: none;
+    font-size: 1.2rem;
+}
+#navbar ul li a{
+    display: block;
+    border-radius: 20px;
+    color: red;
+    text-decoration: none;
+}
+.headcontent{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding-right: 20rem; */
+}
+.cantonment{
+    border: 2px solid white;
+    border-radius: 34px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 3rem 1rem 1rem 3rem;
+    margin: 2rem;
+    width: 40%;
+    color: red;
+}
+.cantonment div{
+    /* display: flex; */
+    padding: 2rem 1rem 2rem 1rem;
+    /* align-items: center; */
+}
+.cantonment img{
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    float: right;
+    width: 19rem;
+    height: 13rem;
+    border-radius: 34px;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+div p{
+    padding-right: 1.5rem;
+}
+/* .ifme{
+    overflow: hidden;
+} */
+a button {
+    width: 8em;
+    padding: 8px 0;
+    text-align: center;
+    margin: 20px 1vh;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid red;
+    background: transparent;
+    color: rgba(174, 8, 240, 0.315);
+    cursor: pointer;
+    position: relative;
+}
+a span{
+    background: white;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+.mainm{
+    display: flex;
+    justify-content: space-between;
+    height: 15rem;
+    padding: 3rem 3rem 3rem 3rem;
+}
+.mainm h2{
+    color: red;
+}
+.main1{
+    width: 50%;
+}
+.main1 h2{
+    color: red;
+    font-family: 'YouMurderer BB Regular';
+    font-size: 4rem;
+    font-weight: lighter;
+    text-align: center;
+}
+.main1 p{
+    margin-top: 1rem;
+    margin-bottom: 2.3rem;
+    text-align: center;
+    color: white;
+}
+i{
+    /* padding: 2rem 2.5rem 2rem 2.5rem; */
+    font-size: 2rem;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+}
+.socials li{
+    list-style: none;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem 2rem 5rem;
+}
+.rrr{
+    text-align: center;
+}
+.rrr a{
+    color: white;
+}
+.rrt a{
+    color: white;
+}
+.fclass li{
+    list-style: none;
+    padding: 8px;
+    color: white;
+}
+.fclass li a{
+    text-decoration: none;
+}
+#google_element{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+}
+.fclass li i{
+    font-size: medium;
+    padding: 0;
+}
