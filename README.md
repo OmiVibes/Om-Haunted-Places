@@ -10,7 +10,6 @@ Discover the spookiest destinations across India, steeped in mystery, history, a
 
 This project provides a comprehensive guide to haunted places in India, complete with a booking system and interactive maps to help users plan their visits. The project combines historical data, local myths, and modern technology to offer an immersive experience.
 
----
 
 ## Features
 
@@ -21,7 +20,7 @@ This project provides a comprehensive guide to haunted places in India, complete
 💬 **User Reviews**: Share and read experiences from other visitors.  
 🔔 **Notifications**: Get updates on new haunted spots or upcoming events.
 
----
+
 
 ## Technologies Used
 
@@ -30,7 +29,7 @@ This project provides a comprehensive guide to haunted places in India, complete
 - **APIs**: Google Maps API for location services  
 - **Hosting**: GitHub Pages for frontend or deployment tools for backend integration  
 
----
+
 
 ## How to Use
 
@@ -51,7 +50,7 @@ This project provides a comprehensive guide to haunted places in India, complete
 4. Access the Project in Your Browser:
     - Open `http://localhost/haunted-places-india` to explore the project locally.
 
----
+
 
 ## Highlights
 
@@ -59,19 +58,19 @@ This project provides a comprehensive guide to haunted places in India, complete
 - User-friendly interface for easy navigation.
 - Fully responsive design for mobile and desktop users.
 
----
+
 
 ## License
 
 This project is not licensed. All rights are reserved by the author. Please contact the author for permissions regarding use, distribution, or modification.
 
----
+
 
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and create a pull request with your changes.
 
----
+
 
 ## 🤖 Feedback
 
